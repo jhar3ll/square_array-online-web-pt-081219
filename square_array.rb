@@ -1,8 +1,5 @@
 def square_array(array)
- old_array = array
- new_array = old_array * array
- new_array << old_array
- end
+ 
  
  
  
