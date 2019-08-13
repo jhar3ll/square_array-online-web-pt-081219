@@ -4,4 +4,6 @@ def square_array(array)
    return num_square
 end
 
+end
+
 p square_array([1,2,3])
