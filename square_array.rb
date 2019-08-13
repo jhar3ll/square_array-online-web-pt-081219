@@ -1,6 +1,17 @@
 def square_array(array)
+ arr_sqr = []
  
+ i = 0 
+  while i < array.length 
+   old_arr = array
+   new_arr = old_arr ** 2
+   arr_sqr << new_arr 
  
+ i += 1 
+ end
+ 
+ return arr_sqr
+ end
  
  
  p square_array([1,2,3,])
