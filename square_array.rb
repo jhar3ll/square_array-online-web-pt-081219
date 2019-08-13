@@ -2,7 +2,7 @@ def square_array(array)
  arr_sqr = []
  
  i = 0 
-  while i < array.length 
+  array.each do |element| 
    old_arr = array[i]
    new_arr = old_arr ** 2
    arr_sqr << new_arr 
